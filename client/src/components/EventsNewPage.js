@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import EventForm from './EventForm';
 import { Event } from '../lib/requests';
+import EventForm from './EventForm';
 
 class EventsNewPage extends Component {
   constructor (props) {
