@@ -1,4 +1,4 @@
-class Api::V1::EventsController < ApplicationController
+class Api::V1::EventsController < Api::BaseController
 def index
   @events = Event.order(created_at: :desc).limit(10)
   render json: @events
